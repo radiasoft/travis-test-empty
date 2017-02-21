@@ -1,8 +1,4 @@
 ---
-sudo: required
-services:
-  - docker
 language: bash
 script:
   - echo PASSED
-  - docker run busybox cat /proc/cpuinfo
